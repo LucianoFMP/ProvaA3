@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+font-family: 'playfair display';
+}
+
+#menu-h{
+background-color:rgb(47, 93, 167);
+}
+
+#menu-h ul{
+max-width: 800px;
+list-style: none;
+padding: 0;
+background-color:rgb(47, 93, 167);
+}
+
+#menu-h ul li{
+display: inline;
+}
+
+#menu-h ul li a{
+
+color:#fff;
+padding: 15px;
+text-decoration: none;
+display: inline-block;
+transition: background .4s;
+
+}
+
+#menu-h ul li a:hover{
+
+    background-color:rgb(241, 124, 28);
+
+    }
+
+#menu-h ul li:last-child a {
+
+      float: right;
+      background-color:rgb(243, 243, 103);
+      color: black;
+        }
+
+        #menu-h ul li:last-child a:hover{
+            background-color:rgb(127, 189, 243);
+        }
+
+#texto {
+
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: aliceblue;
+}        
+
+#cursos {
+
+    float: left;
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: center;
+    color: black;
+}
